@@ -1,0 +1,84 @@
+/* ==========start navbar=========== */
+.nav1,
+.about1 {
+    background-image: linear-gradient(to right, #BD4B4B 60%, #EFB7B7);
+}
+
+.nav1 ul a {
+    font-weight: 300;
+    transition: all 0.2s;
+    margin: 0px 10px
+}
+
+.nav1 ul a:hover {
+    background-color: #FFE6E6;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* =======end navbar========= */
+nav.nav-tt {
+    margin: 10px auto;
+    width: 50%;
+}
+
+.hr {
+    width: 50%;
+    height: 2px;
+    margin: 22px auto;
+    background: linear-gradient(to right, black, #BD4B4B, black);
+}
+
+.hr2 {
+    border: #EFB7B7 dashed 1px;
+    width: 40%;
+}
+
+.hr3 {
+    border: #EFB7B7 dashed 1px;
+    width: 30%;
+}
+
+.Gallary img {
+    margin: 10px auto;
+    width: 100% 100%;
+}
+
+.img2 img {
+    width: 100%;
+}
+
+.coco {
+    background: #EFB7B7;
+    padding: 20px 0px;
+}
+
+.coco ul li {
+    list-style: none;
+}
+
+.coco ul li a {
+    text-transform: none;
+    text-decoration: none;
+
+}
+
+.coco ul li a:hover {
+    text-transform: none;
+    color: #FFE6E6;
+}
+
+.ico {
+    font-size: 50px;
+}
+
+.coco ul li a,
+p,
+.coco,
+.nav-tt a,
+.about1,
+.nav1 ul a:hover,
+.nav1 ul a {
+    color: #000000 !important;
+}
